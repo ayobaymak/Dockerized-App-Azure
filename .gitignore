@@ -1,0 +1,16 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+terraform.tfvars.json
+
+# Sensitive information
+*.pem
+*.key
+
+# logs
+*.log
+
+# MacOS system files
+.DS_Store
